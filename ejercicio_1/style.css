@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/*** HEADER ***/
+.logo{
+    min-width: 100px;
+    max-width: 120px;
+}
+.nav-link{
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+
+
+.logregister{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logregister .btn{
+margin-right: 20px;
+}
+
+/*** TITULO + TEXTO ***/
+.titulo{
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom:20%;
+    background:url('img/blackcat.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.titulo h1{
+    font-size: 100px;
+    color: rgb(207, 104, 121);
+}
+.entrada{
+    text-align: justify;
+    line-height: 50px;
+    padding: 20px;
+    
+}
+
+
+/*** slider ***/
+#slider1,
+ #slider2, 
+ #slider3,
+ #slider4{
+    width: 80vw;
+    max-height: 700px;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+
+/*** main ***/
+
+.mainn{
+    /margin-left: 10%;
+    /margin-right: 10%;
+}
+
+.fotosgatos{
+    padding: 25px;
+}
+.card-body{
+    padding: 10px;
+}
+
+.card-img-top img{
+    max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*** footer ***/
+.footer{
+    padding-top:50px;
+    margin-top: 20px;
+
+}
+.horario,
+
+.mapa{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.politicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.politicas a{
+    text-decoration: none;
+    color: black;
+}
+
+.derechos p{
+    text-align: center;
+    line-height: 40px;
+}
+
+
+    
+
